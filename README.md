@@ -17,6 +17,10 @@ currently it's from ubuntu, ansible and nix might have their own distributions
 ```bash
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+- PHP (maybe)
+```bash
+    /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
+```
 
 
 ### ZSH
@@ -26,7 +30,7 @@ currently it's from ubuntu, ansible and nix might have their own distributions
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
     # History Options
-    HISTSIZE=5000
+    HISTSIZE=50000
     HISTFILE=~/.zsh_history
     SAVEHIST=$HISTSIZE
     HISTDUP=erase
